@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Events - Meetup</title>
+</head>
+
+<body class="bg-gray-50">
+  <nav>
+    <div class="flex items-center justify-between p-4 max-w-7xl mx-auto">
+      <div class="flex items-center">
+        <h1 class="text-xl font-bold text-pink-500"><a href="index.html">Meetup</a></h1>
+      </div>
+      <div class="flex space-x-4">
+        <button><a href="index.html" class="text-pink-500 hover:text-gray-900">Home</a></button>
+        <button><a href="login.html" class="text-pink-500 hover:text-gray-900">Log in</a></button>
+        <button><a href="signup.html" class="border border-pink-500 rounded-full px-3 py-2 border-2 text-white bg-pink-500 hover:text-gray-900">Sign up</a></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="max-w-6xl mx-auto px-6 py-16">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">Upcoming Events</h1>
+    <p class="text-xl text-gray-600 mb-12">Discover events happening near you.</p>
+
+    <div class="space-y-6">
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 hover:shadow-lg transition">
+        <div class="w-full md:w-48 h-32 bg-gradient-to-br from-pink-400 to-purple-500 rounded-xl flex items-center justify-center">
+          <span class="text-white text-3xl font-bold">15</span>
+        </div>
+        <div class="flex-1">
+          <span class="text-pink-500 text-sm font-semibold">This Saturday · 7:00 PM</span>
+          <h3 class="text-xl font-bold text-gray-900 mt-1">Downtown Running Club Meetup</h3>
+          <p class="text-gray-500 mt-2">Join us for a 5k run through downtown. All skill levels welcome!</p>
+          <div class="flex items-center gap-4 mt-4">
+            <span class="text-gray-400 text-sm">📍 Central Park</span>
+            <span class="text-gray-400 text-sm">👥 24 going</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 hover:shadow-lg transition">
+        <div class="w-full md:w-48 h-32 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-xl flex items-center justify-center">
+          <span class="text-white text-3xl font-bold">18</span>
+        </div>
+        <div class="flex-1">
+          <span class="text-pink-500 text-sm font-semibold">Tuesday · 6:30 PM</span>
+          <h3 class="text-xl font-bold text-gray-900 mt-1">Photography Walk: City Lights</h3>
+          <p class="text-gray-500 mt-2">Explore the city through your lens. Bring your camera!</p>
+          <div class="flex items-center gap-4 mt-4">
+            <span class="text-gray-400 text-sm">📍 Main Street</span>
+            <span class="text-gray-400 text-sm">👥 18 going</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 hover:shadow-lg transition">
+        <div class="w-full md:w-48 h-32 bg-gradient-to-br from-green-400 to-emerald-500 rounded-xl flex items-center justify-center">
+          <span class="text-white text-3xl font-bold">22</span>
+        </div>
+        <div class="flex-1">
+          <span class="text-pink-500 text-sm font-semibold">Next Sunday · 2:00 PM</span>
+          <h3 class="text-xl font-bold text-gray-900 mt-1">Board Game Night</h3>
+          <p class="text-gray-500 mt-2">Fun board games and new friends. Snacks provided!</p>
+          <div class="flex items-center gap-4 mt-4">
+            <span class="text-gray-400 text-sm">📍 Community Center</span>
+            <span class="text-gray-400 text-sm">👥 32 going</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12 text-center">
+      <a href="signup.html" class="inline-block bg-pink-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-pink-600 transition">
+        Create an Event
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>
